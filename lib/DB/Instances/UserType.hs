@@ -5,10 +5,10 @@
 
 module DB.Instances.UserType where
 
-import           Database.SQLite.Simple.FromField
-import           Database.SQLite.Simple.Ok
-import           Database.SQLite.Simple.ToField
-import           Types.UserType
+import Database.SQLite.Simple.FromField
+import Database.SQLite.Simple.Ok
+import Database.SQLite.Simple.ToField
+import Types.UserType
 
 instance ToField UserType where
     toField Normal    = toField @String "NORMAL"
