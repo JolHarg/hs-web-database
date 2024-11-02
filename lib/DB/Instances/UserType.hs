@@ -1,6 +1,4 @@
-{-# LANGUAGE DataKinds        #-}
 {-# LANGUAGE DerivingVia      #-}
-{-# LANGUAGE TypeApplications #-}
 {-# OPTIONS_GHC -Wno-orphans    #-}
 
 module DB.Instances.UserType where

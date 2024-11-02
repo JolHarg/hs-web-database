@@ -1,6 +1,4 @@
-{-# LANGUAGE DataKinds          #-}
 {-# LANGUAGE DerivingVia        #-}
-{-# LANGUAGE StandaloneDeriving #-}
 {-# OPTIONS_GHC -Wno-orphans    #-}
 
 module DB.Instances.Name where

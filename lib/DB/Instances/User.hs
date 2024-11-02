@@ -1,6 +1,4 @@
-{-# LANGUAGE DataKinds          #-}
 {-# LANGUAGE DerivingVia        #-}
-{-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TemplateHaskell    #-}
 {-# OPTIONS_GHC -Wno-orphans    #-}
 
