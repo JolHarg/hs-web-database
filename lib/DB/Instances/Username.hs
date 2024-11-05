@@ -1,4 +1,4 @@
-{-# LANGUAGE DerivingVia        #-}
+{-# LANGUAGE DerivingVia #-}
 {-# OPTIONS_GHC -Wno-orphans    #-}
 
 module DB.Instances.Username where

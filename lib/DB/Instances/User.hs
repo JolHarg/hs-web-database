@@ -1,5 +1,5 @@
-{-# LANGUAGE DerivingVia        #-}
-{-# LANGUAGE TemplateHaskell    #-}
+{-# LANGUAGE DerivingVia     #-}
+{-# LANGUAGE TemplateHaskell #-}
 {-# OPTIONS_GHC -Wno-orphans    #-}
 
 module DB.Instances.User where
