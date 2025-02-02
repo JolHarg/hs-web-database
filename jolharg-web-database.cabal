@@ -1,6 +1,6 @@
 cabal-version:      3.4
 name:               jolharg-web-database
-version:            0.1.0.0
+version:            0.2.0.0
 license:            AGPL-3.0-only
 author:             Dan Dart
 maintainer:         git@dandart.co.uk
@@ -24,14 +24,14 @@ library
 
   -- other-extensions:
   build-depends:
-    , base                >=4.20.0.0 && <5
-    , jolharg-database
-    , jolharg-web-models
-    , jolharg-web-types
-    , sqlite-simple
-    , sqlite-uuid
-    , text
-    , uuid-types
+    , base                ^>=4.20.0.0
+    , jolharg-database    ^>=0.2.0.0
+    , jolharg-web-models  ^>=0.2.0.0
+    , jolharg-web-types   ^>=0.2.0.0
+    , sqlite-simple       ^>=0.4.19.0
+    , sqlite-uuid         ^>=0.2.0.0
+    , text                ^>=2.1.2
+    , uuid-types          ^>=1.0.6
 
   hs-source-dirs:     lib
   default-language:   GHC2024
@@ -71,13 +71,13 @@ test-suite jolharg-web-database-test
     -Wno-missed-specialisations
 
   build-depends:
-    , base   >=4.20.0.0 && <5
-    , hspec
+    , base   ^>=4.20.0.0
+    , hspec  ^>=2.11.10
 
   -- , jolharg-web-database
-  -- , hspec-core
-  -- , hspec-expectations
+  -- , hspec-core ^>=2.11.10
+  -- , hspec-expectations ^>=0.8.4
   -- , HUnit
-  -- , QuickCheck
+  -- , QuickCheck ^>=2.15.0.1
   build-tool-depends: hspec-discover:hspec-discover
   other-modules:      MainSpec
