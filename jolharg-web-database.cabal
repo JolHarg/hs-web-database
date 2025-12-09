@@ -24,12 +24,12 @@ library
 
   -- other-extensions:
   build-depends:
-    , base                >=4.21.0.0 && <4.23.0.0
-    , jolharg-database    ^>=0.3.0.0
-    , jolharg-web-models  ^>=0.3.0.0
-    , jolharg-web-types   ^>=0.3.0.0
-    , sqlite-simple       ^>=0.4.19.0
-    , sqlite-uuid         ^>=0.3.0.0
+    , base                >=4.21 && <4.23
+    , jolharg-database    ^>=0.3
+    , jolharg-web-models  ^>=0.3
+    , jolharg-web-types   ^>=0.3
+    , sqlite-simple       ^>=0.4.19
+    , sqlite-uuid         ^>=0.3
     , text                ^>=2.1.2
     , uuid-types          ^>=1.0.6
 
@@ -77,13 +77,13 @@ test-suite jolharg-web-database-test
     -Wno-unrecognised-warning-flags -Wno-missed-specialisations
 
   build-depends:
-    , base   >=4.21.0.0 && <4.23.0.0
-    , hspec  ^>=2.11.10
+    , base   >=4.21 && <4.23
+    , hspec  ^>=2.11.15
 
   -- , jolharg-web-database
-  -- , hspec-core ^>=2.11.10
+  -- , hspec-core ^>=2.11.15
   -- , hspec-expectations ^>=0.8.4
   -- , HUnit
-  -- , QuickCheck ^>=2.17.0.0
+  -- , QuickCheck ^>=2.17
   build-tool-depends: hspec-discover:hspec-discover
   other-modules:      MainSpec
